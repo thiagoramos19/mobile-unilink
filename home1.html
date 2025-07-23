@@ -55,8 +55,8 @@
              background-color: #026dad;
              /* degrade suave */
              background: #026dad;
-             width: 393px; /* Revertido para o tamanho anterior */
-             height: 852px;
+             width: 380px; /* Revertido para o tamanho anterior */
+             height: 823px;
              border-radius: 28px; /* Ajuste se precisar de borda redonda */
              display: flex;
              flex-direction: column;
@@ -101,8 +101,8 @@
         }
 
         .maria-story-video-overlay .content-wrapper {
-            width: 393px; /* Largura da tela do celular */
-            height: 852px; /* Altura da tela do celular */
+            width: 380px; /* Largura da tela do celular */
+            height: 823px; /* Altura da tela do celular */
             border: 4px solid black; /* Borda preta */
             border-radius: 16px; /* Cantos arredondados */
             overflow: hidden;
@@ -146,7 +146,7 @@
     </style>
 </head>
 <body>
-    <div class="w-[393px] h-[852px] border-4 border-black rounded-3xl
+    <div class="w-[380px] h-[823px] border-4 border-black rounded-3xl
                  flex flex-col bg-white shadow-xl overflow-hidden relative">
         <header id="mainHeader" class="h-[75px] bg-[#e5a1ae] flex items-center justify-between px-4 shadow-md transition-all duration-300">
             <div class="h-full flex items-center">
@@ -366,14 +366,14 @@
     </div>
 
     <div id="ciclanoStoryOverlay" class="story-overlay hidden">
-        <div class="relative w-[393px] h-[852px] flex flex-col items-center justify-between">
+        <div class="relative w-[380px] h-[823px] flex flex-col items-center justify-between">
             <button id="closeCiclanoStoryButtonTop" class="absolute top-[20px] inset-x-0 mx-auto w-[calc(100%-40px)] h-[33px] bg-red-500 text-white font-bold text-[14px] rounded-14px flex items-center justify-center z-20">
                 Voltar para home
             </button>
             <img id="ciclanoStoryImage" src="img/storyciclano1.png" 
                 alt="Story do Ciclano" 
                 class="w-full h-full border-4 border-black rounded-3xl object-cover"
-                onerror="this.onerror=null;this.src='https://placehold.co/393x852/000000/FFFFFF?text=STORY+CICLANO+1';">
+                onerror="this.onerror=null;this.src='https://placehold.co/380x823/000000/FFFFFF?text=STORY+CICLANO+1';">
             
             <div class="story-click-area left" id="ciclanoStoryLeftClick"></div>
             <div class="story-click-area right" id="ciclanoStoryRightClick"></div>
@@ -405,14 +405,14 @@
     </div>
 
     <div id="amigoAStoryOverlay" class="story-overlay hidden">
-        <div class="relative w-[393px] h-[852px] flex flex-col items-center justify-between">
+        <div class="relative w-[380px] h-[823px] flex flex-col items-center justify-between">
             <button id="closeAmigoAStoryButtonTop" class="absolute top-[20px] inset-x-0 mx-auto w-[calc(100%-40px)] h-[33px] bg-red-500 text-white font-bold text-[14px] rounded-14px flex items-center justify-center z-20">
                 Voltar para home
             </button>
-            <img id="amigoAStoryImage" src="https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+A" 
+            <img id="amigoAStoryImage" src="https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+A" 
                 alt="Story do Amigo A" 
                 class="w-full h- border-4 border-black rounded-3xl object-cover"
-                onerror="this.onerror=null;this.src='https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+A';">
+                onerror="this.onerror=null;this.src='https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+A';">
             
             <div class="story-click-area left" id="amigoAStoryLeftClick"></div>
             <div class="story-click-area right" id="amigoAStoryRightClick"></div>
@@ -444,14 +444,14 @@
     </div>
 
     <div id="amigoBStoryOverlay" class="story-overlay hidden">
-        <div class="relative w-[393px] h-[852px] flex flex-col items-center justify-between">
+        <div class="relative w-[380px] h-[823px] flex flex-col items-center justify-between">
             <button id="closeAmigoBStoryButtonTop" class="absolute top-[20px] inset-x-0 mx-auto w-[calc(100%-40px)] h-[33px] bg-red-500 text-white font-bold text-[14px] rounded-14px flex items-center justify-center z-20">
                 Voltar para home
             </button>
-            <img id="amigoBStoryImage" src="https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+B" 
+            <img id="amigoBStoryImage" src="https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+B" 
                 alt="Story do Amigo B" 
                 class="w-full h-full border-4 border-black rounded-3xl object-cover"
-                onerror="this.onerror=null;this.src='https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+B';">
+                onerror="this.onerror=null;this.src='https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+B';">
             
             <div class="story-click-area left" id="amigoBStoryLeftClick"></div>
             <div class="story-click-area right" id="amigoBStoryRightClick"></div>
@@ -568,14 +568,14 @@
             // Referências para os stories do Amigo A e B (inalterados para esta solicitação)
             const amigoAStoryCircle = document.getElementById('amigoAStoryCircle');
             const amigoAStoryOverlay = document.getElementById('amigoAStoryOverlay');
-            const amigoAStories = ['https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+A+1', 'https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+A+2'];
+            const amigoAStories = ['https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+A+1', 'https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+A+2'];
             let currentAmigoAStoryIndex = 0;
             let amigoATouchStartY = 0;
             const closeAmigoAStoryButtonTop = document.getElementById('closeAmigoAStoryButtonTop'); 
 
             const amigoBStoryCircle = document.getElementById('amigoBStoryCircle');
             const amigoBStoryOverlay = document.getElementById('amigoBStoryOverlay');
-            const amigoBStories = ['https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+B+1', 'https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+B+2'];
+            const amigoBStories = ['https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+B+1', 'https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+B+2'];
             let currentAmigoBStoryIndex = 0;
             let amigoBTouchStartY = 0;
             const closeAmigoBStoryButtonTop = document.getElementById('closeAmigoBStoryButtonTop'); 
@@ -826,7 +826,7 @@
                         ciclanoStoryImage.src = ciclanoStories[currentCiclanoStoryIndex];
                         ciclanoStoryImage.onerror = function() {
                             this.onerror = null;
-                            this.src = 'https://placehold.co/393x852/000000/FFFFFF?text=STORY+CICLANO+ERRO';
+                            this.src = 'https://placehold.co/380x823/000000/FFFFFF?text=STORY+CICLANO+ERRO';
                         };
                     } else if (index >= ciclanoStories.length) {
                         closeAllOverlays();
@@ -880,7 +880,7 @@
                     amigoAStoryImage.src = amigoAStories[currentAmigoAStoryIndex];
                     amigoAStoryImage.onerror = function() {
                         this.onerror = null;
-                        this.src = 'https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+A+ERRO';
+                        this.src = 'https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+A+ERRO';
                     };
                 }
                 // Limpeza de inputs e menus de reação se existirem
@@ -988,7 +988,7 @@
                     amigoBStoryImage.src = amigoBStories[currentAmigoBStoryIndex];
                     amigoBStoryImage.onerror = function() {
                         this.onerror = null;
-                        this.src = 'https://placehold.co/393x852/000000/FFFFFF?text=STORY+AMIGO+B+ERRO';
+                        this.src = 'https://placehold.co/380x823/000000/FFFFFF?text=STORY+AMIGO+B+ERRO';
                     };
                 }
                 // Limpeza de inputs e menus de reação se existirem
